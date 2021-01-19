@@ -22,3 +22,27 @@ kaggle competiton
 - 读取测试集图片进行推理
 - 将结果整理成submission.csv的形式
 - 获得得分
+
+## 主函数
+- 训练代码
+```
+  dataloader_kwargs = {}
+  dataloader = Dataloader(**dataloader_kwargs)
+  
+  model_kwargs = {}
+  model = Model(**kwargs)
+  
+  trainer_kwargs = {}
+  trainer = Trainer(dataloader = dataloader, model = model, **trainer_kwargs)
+  trainer.run()
+  
+  torch.save(model.state_dict(),PATH)
+```
+- 测试代码
+```
+  model_kwargs = {}
+  model = Model(**kwargs)
+  model.load_state_dict(torch.load(PATH)
+  
+  # 读取测试集生成submission.csv
+```
