@@ -6,7 +6,7 @@ kaggle competiton
 - 取出的数据格式兼容model所需的tensor
 - 图片预处理函数可重写
 
-## 数据增强
+## Data Augmentation
 - 读取现有图片进行翻转，旋转等变换
 - 生成新的数据集
 
