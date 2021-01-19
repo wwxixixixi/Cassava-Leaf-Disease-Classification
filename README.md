@@ -46,4 +46,4 @@ kaggle competiton
   
   # 读取测试集生成submission.csv
 ```
-！[image](https://github.com/wwxixixixi/Cassava-Leaf-Disease-Classification/blob/main/pic/flow_chart.png)
+![image](https://github.com/wwxixixixi/Cassava-Leaf-Disease-Classification/blob/main/pic/flow_chart.png)
